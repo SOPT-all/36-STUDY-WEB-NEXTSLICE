@@ -1,0 +1,2 @@
+# 36-STUDY-WEB-NEXTSLICE
+36기 웹 NEXT.js 스터디

@@ -58,11 +58,11 @@
 
 | 날짜       | Week   | Tags         | Keyword                                                                                      | 발표자          |
 |----------------|--------|--------------|----------------------------------------------------------------------------------------------|-----------------|
-| 4월 29일 | Week0  | 킥오프        | 스터디 운영 방식 논의, 목표 설정 | -          |
-| 5월 6일 | Week1  | NextJS란?        | NextJS 등장 배경, NextJS를 왜 쓸까?, NextJS vs React만 사용, 프로젝트 초기세팅 | 정희연          |
-| 5월 13일 | Week2  | Routing (Page Router)        | Page Router, Page Router vs App Router | 권동희, 조성하          |
-| 5월 20일 | Week3  | Routing (App Router)        | 라우팅 정의, Linking과 Navigating, Layout, 동적 라우팅(Dynamic Routing), 데이터 패칭 (Data Fetching) | 이윤지, 이진혁          |
-| 5월 27일 | Week4  | Data Fetching        | 데이터 캐싱(Caching), 데이터 패칭(Fetching), Server Actions | 김정은, 박소이          |
-| 6월 3일 | Week5  | Rendering        | 서버 컴포넌트, 클라이언트 컴포넌트 | 곽지욱, 정희연          |
-| 6월 10일 | Week6  | Optimizing        | 이미지 최적화, Metadata, Fonts, 정적 Asset(Static Assets) | 황인영          |
-| 6월 17일 | Week7  | Caching        | 캐싱(Caching) | 엄경호          |
+| 4월 17일 | Week0  | 킥오프        | 스터디 운영 방식 논의, 목표 설정 | -          |
+| 4월 28일 | Week1  | NextJS란?        | NextJS 등장 배경, NextJS를 왜 쓸까?, NextJS vs React만 사용, 프로젝트 초기세팅 | 정희연          |
+| 5월 5일 | Week2  | Routing (Page Router)        | Page Router, Page Router vs App Router | 권동희, 조성하          |
+| 5월 12일 | Week3  | Routing (App Router)        | 라우팅 정의, Linking과 Navigating, Layout, 동적 라우팅(Dynamic Routing), 데이터 패칭 (Data Fetching) | 이윤지, 이진혁          |
+| 5월 19일 | Week4  | Data Fetching        | 데이터 캐싱(Caching), 데이터 패칭(Fetching), Server Actions | 김정은, 박소이          |
+| 6월 26일 | Week5  | Rendering        | 서버 컴포넌트, 클라이언트 컴포넌트 | 곽지욱, 정희연          |
+| 6월 2일 | Week6  | Optimizing        | 이미지 최적화, Metadata, Fonts, 정적 Asset(Static Assets) | 황인영          |
+| 6월 9일 | Week7  | Caching        | 캐싱(Caching) | 엄경호          |

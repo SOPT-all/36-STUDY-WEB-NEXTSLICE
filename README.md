@@ -28,7 +28,8 @@
 - `주제`: 해당 발표나 학습 키워드 (간단 명료하게)
 
 #### 📝 Pull Request 작성 시
-- 제목 예시: `[Week1] 성하 - app-router`
+- 제목 예시: `[Week1] 성하 - Routing (Page Router)`
+  - 제목에서 주제는 아래 표에 있는 주제(tag)를 그대로 사용한다.
 - 설명: 어떤 내용을 다뤘는지 간단히 작성해주세요
 - 파일은 본인 디렉토리 아래에 정리 (예: `/Sungha/week1/app-router.md`)
 ---

@@ -4,18 +4,21 @@ import Counter from "../components/Counter";
 import styles from "../styles/home.module.css";
 
 export default function Home() {
-  const [count, setCount] = useState(0);
+  const [count, setCount] = useState(null);
 
   useEffect(() => {
     const savedCount = localStorage.getItem("count");
     if (savedCount) {
       setCount(parseInt(savedCount, 10));
+    } else {
+      setCount(0);
     }
   }, []);
 
   useEffect(() => {
-    localStorage.setItem("count", count);
+    if (count !== null) localStorage.setItem("count", count);
   }, [count]);
+
   const handleIncrease = () => {
     setCount((prev) => prev + 1);
   };
@@ -33,15 +36,6 @@ export default function Home() {
         handleReset={handleReset}
       />
       <Link href="/about">Go to About Page</Link>
-      <h2>Visit the Blog</h2>
-      <ul>
-        <li>
-          <Link href="/blog/hello-nextjs">Hello Next.js</Link>
-        </li>
-        <li>
-          <Link href="/blog/learn-routing">Learning Routing</Link>
-        </li>
-      </ul>
     </div>
   );
 }

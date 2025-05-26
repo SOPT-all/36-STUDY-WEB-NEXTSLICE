@@ -1,0 +1,31 @@
+/* styles/counter.module.css */
+
+.wrapper {
+    margin: 20px 0;
+    padding: 20px;
+    border: 2px solid #e2e8f0;
+    border-radius: 8px;
+    background-color: #ffffff;
+}
+
+.wrapper p {
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.wrapper button {
+    margin: 0 8px;
+    padding: 8px 16px;
+    font-size: 16px;
+    border: none;
+    border-radius: 6px;
+    background-color: #3182ce;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.wrapper button:hover {
+    background-color: #2c5282;
+}

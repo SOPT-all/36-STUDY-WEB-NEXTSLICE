@@ -12,10 +12,13 @@ export type Todo = {
 let todos: Todo[] = [
   { id: '1', text: '너무 자고싶어', completed: false },
   { id: '2', text: '합세 화이팅~..', completed: false },
+  { id: '3', text: '침대와의 약속', completed: false },
+  { id: '4', text: '집에있어도집에가고싶어', completed: false },
 ]
 
 // 할일 목록 
 export async function getTodos() {
+  console.log('📦 fetch 실행됨');
   return todos
 }
 

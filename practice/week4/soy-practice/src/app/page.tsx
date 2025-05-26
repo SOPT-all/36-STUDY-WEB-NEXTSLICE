@@ -16,7 +16,6 @@ const styles = {
 };
 
 export default async function Home() {
-  console.log('📦 fetch 실행됨');
 
   // 서버 컴포넌트에서 데이터 가져오기
   const todos = await getTodos();
